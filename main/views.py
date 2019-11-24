@@ -55,8 +55,10 @@ def index(request):
 		df = pd.DataFrame(np.array(data), columns = data_head)
 		file = open(os.path.join(BASE_DIR, 'pima.pickle'), 'rb')
 		load_model = pickle.load(file)
-		result =load_model.predict(df)
-		print(result)
-		return render(request,'main/index.html',{'res':True, 'result':"{:.2f}".format(result[0]*100)})
+		resultbjp =load_model.predict(df)
+		resultinc =(1-resultbjp[0])*0.66
+		resultoth =(1-resultbjp[0])*0.33
+		return render(request,'main/index.html',{'res':True, 'resultbjp':"{:.2f}".format(resultbjp[0]*100), 
+			'resultinc':"{:.2f}".format(resultinc*100), 'resultoth':"{:.2f}".format(resultoth*100)})
 	return render(request,'main/index.html',{})
 
