@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>
-    Drinkr
+    Politics
   </title>
   {% load staticfiles %}
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,28 +13,18 @@
 </head>
 <body>
   <main>
-    <div class="main">
+    <div class="main" id = "particles-js">
       <div class="main-header">
         <div class="form-details">
           <span class="form-heading">
-            <b>Alcoholism and You!</b>
+            <b>heading</b>
           </span>
 
           <span class="form-description">
-            To get the party started fill up the form
-          </span>
-        </div>
-        <div>
-          <span class="form-icon">
-            <i class="fa fa-pencil"></i>
+            Please fill up the form
           </span>
         </div>
       </div>
-
-      <div class="triangle-container">
-        <div class="triangle"></div>
-      </div>
-
       <div class="main-form">
         <div class="navigation previous">
           <span><i class="fa fa-chevron-left"></i></span>
@@ -45,9 +35,11 @@
             <div class="input-element">
               <div class="central-input">
                 <div class="radio-container">
-                  <h2 class="input-label"><b><center>Based on a survey on 'Alchohol Consumption in college', we present you a response form that gives you the probability of how likely you are into alcoholism! <br>We have trained a model as per the response obtained by the students of IIT Roorkee and others.<br>
-Please fill the form to the best of your knowledge and see the results.Cheers! (Don't worry, we won't track your data)</center></b><br><br>
-<center>To get started click the arrow on right
+                  <h2 class="input-label"><b><center>Based on the data we collected about the campaigning strategies of the 
+                  two major political fronts Indian National Congress and Bharatiya Janata Party, we have developed a server
+                  and a machine learning model that could predict your probability of giving vote to a particular party.   
+                </center></b><br><br>
+<center>
 </center></h2>
                 </div>
               </div>
@@ -411,385 +403,6 @@ Please fill the form to the best of your knowledge and see the results.Cheers! (
                 </div>
               </div>
             </div>
-
-            <div class="input-element">
-              <div class="central-input">
-                <div class="radio-container">
-                  <h2 class="input-label">How responsible is the following reason to continue alcohol:
-                  <center><b>"Love Affair"</b></center></h2>
-                  <ul class="radio-options-list">
-                    <li>
-                      <input type="radio" id="love-f-option" name="love" value="1" required>
-                      <label for="love-f-option" class="radio-label">1</label>
-                      <div class="check"></div>
-                    </li>
-
-                    <li>
-                      <input type="radio" id="love-s-option" name="love" value="2" required>
-                      <label for="love-s-option" class="radio-label">2</label>
-                      <div class="check"><div class="inside"></div></div>
-                    </li>
-                    <li>
-                      <input type="radio" id="love-option3" name="love" value="3" required>
-                      <label for="love-option3" class="radio-label">3</label>
-                      <div class="check"></div>
-                    </li>
-
-                    <li>
-                      <input type="radio" id="love-option4" name="love" value="4" required>
-                      <label for="love-option4" class="radio-label">4</label>
-                      <div class="check"><div class="inside"></div></div>
-                    </li>
-                    <li>
-                      <input type="radio" id="love-option5" name="love" value="5" required>
-                      <label for="love-option5" class="radio-label">5</label>
-                      <div class="check"></div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div class="input-element">
-              <div class="central-input">
-                <div class="radio-container">
-                  <h2 class="input-label">How responsible is the following reason to continue alcohol:
-                  <center><b>"Family Problem"</b></center></h2>
-                  <ul class="radio-options-list">
-                    <li>
-                      <input type="radio" id="problem-f-option" name="problem" value="1" required>
-                      <label for="problem-f-option" class="radio-label">1</label>
-                      <div class="check"></div>
-                    </li>
-
-                    <li>
-                      <input type="radio" id="problem-s-option" name="problem" value="2" required>
-                      <label for="problem-s-option" class="radio-label">2</label>
-                      <div class="check"><div class="inside"></div></div>
-                    </li>
-                    <li>
-                      <input type="radio" id="problem-option3" name="problem" value="3" required>
-                      <label for="problem-option3" class="radio-label">3</label>
-                      <div class="check"></div>
-                    </li>
-
-                    <li>
-                      <input type="radio" id="problem-option4" name="problem" value="4" required>
-                      <label for="problem-option4" class="radio-label">4</label>
-                      <div class="check"><div class="inside"></div></div>
-                    </li>
-                    <li>
-                      <input type="radio" id="problem-option5" name="problem" value="5" required>
-                      <label for="problem-option5" class="radio-label">5</label>
-                      <div class="check"></div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div class="input-element">
-              <div class="central-input">
-                <div class="radio-container">
-                  <h2 class="input-label">How responsible is the following reason to continue alcohol:
-                  <center><b>"Monetary Loss"</b></center></h2>
-                  <ul class="radio-options-list">
-                    <li>
-                      <input type="radio" id="monetary-f-option" name="monetary" value="1" required>
-                      <label for="monetary-f-option" class="radio-label">1</label>
-                      <div class="check"></div>
-                    </li>
-
-                    <li>
-                      <input type="radio" id="monetary-s-option" name="monetary" value="2" required>
-                      <label for="monetary-s-option" class="radio-label">2</label>
-                      <div class="check"><div class="inside"></div></div>
-                    </li>
-                    <li>
-                      <input type="radio" id="monetary-option3" name="monetary" value="3" required>
-                      <label for="monetary-option3" class="radio-label">3</label>
-                      <div class="check"></div>
-                    </li>
-
-                    <li>
-                      <input type="radio" id="monetary-option4" name="monetary" value="4" required>
-                      <label for="monetary-option4" class="radio-label">4</label>
-                      <div class="check"><div class="inside"></div></div>
-                    </li>
-                    <li>
-                      <input type="radio" id="monetary-option5" name="monetary" value="5" required>
-                      <label for="monetary-option5" class="radio-label">5</label>
-                      <div class="check"></div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div class="input-element">
-              <div class="central-input">
-                <div class="radio-container">
-                  <h2 class="input-label">How responsible is the following reason to continue alcohol:
-                  <center><b>"Just for Fun"</b></center></h2>
-                  <ul class="radio-options-list">
-                    <li>
-                      <input type="radio" id="fun-f-option" name="fun" value="1" required>
-                      <label for="fun-f-option" class="radio-label">1</label>
-                      <div class="check"></div>
-                    </li>
-
-                    <li>
-                      <input type="radio" id="fun-s-option" name="fun" value="2" required>
-                      <label for="fun-s-option" class="radio-label">2</label>
-                      <div class="check"><div class="inside"></div></div>
-                    </li>
-                    <li>
-                      <input type="radio" id="fun-option3" name="fun" value="3" required>
-                      <label for="fun-option3" class="radio-label">3</label>
-                      <div class="check"></div>
-                    </li>
-
-                    <li>
-                      <input type="radio" id="fun-option4" name="fun" value="4" required>
-                      <label for="fun-option4" class="radio-label">4</label>
-                      <div class="check"><div class="inside"></div></div>
-                    </li>
-                    <li>
-                      <input type="radio" id="fun-option5" name="fun" value="5" required>
-                      <label for="fun-option5" class="radio-label">5</label>
-                      <div class="check"></div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div class="input-element">
-              <div class="central-input">
-                <div class="radio-container">
-                  <h2 class="input-label">How responsible is the following reason to start alcohol:
-                  <center><b>"Campus Groups"</b></center></h2>
-                  <ul class="radio-options-list">
-                    <li>
-                      <input type="radio" id="campus-f-option" name="campus" value="1" required>
-                      <label for="campus-f-option" class="radio-label">1</label>
-                      <div class="check"></div>
-                    </li>
-
-                    <li>
-                      <input type="radio" id="campus-s-option" name="campus" value="2" required>
-                      <label for="campus-s-option" class="radio-label">2</label>
-                      <div class="check"><div class="inside"></div></div>
-                    </li>
-                    <li>
-                      <input type="radio" id="campus-option3" name="campus" value="3" required>
-                      <label for="campus-option3" class="radio-label">3</label>
-                      <div class="check"></div>
-                    </li>
-
-                    <li>
-                      <input type="radio" id="campus-option4" name="campus" value="4" required>
-                      <label for="campus-option4" class="radio-label">4</label>
-                      <div class="check"><div class="inside"></div></div>
-                    </li>
-                    <li>
-                      <input type="radio" id="campus-option5" name="campus" value="5" required>
-                      <label for="campus-option5" class="radio-label">5</label>
-                      <div class="check"></div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div class="input-element">
-              <div class="central-input">
-                <div class="radio-container">
-                  <h2 class="input-label">How responsible is the following reason to start alcohol:
-                  <center><b>"Connect well with Seniors"</b></center></h2>
-                  <ul class="radio-options-list">
-                    <li>
-                      <input type="radio" id="seniors-f-option" name="seniors" value="1" required>
-                      <label for="seniors-f-option" class="radio-label">1</label>
-                      <div class="check"></div>
-                    </li>
-
-                    <li>
-                      <input type="radio" id="seniors-s-option" name="seniors" value="2" required>
-                      <label for="seniors-s-option" class="radio-label">2</label>
-                      <div class="check"><div class="inside"></div></div>
-                    </li>
-                    <li>
-                      <input type="radio" id="seniors-option3" name="seniors" value="3" required>
-                      <label for="seniors-option3" class="radio-label">3</label>
-                      <div class="check"></div>
-                    </li>
-
-                    <li>
-                      <input type="radio" id="seniors-option4" name="seniors" value="4" required>
-                      <label for="seniors-option4" class="radio-label">4</label>
-                      <div class="check"><div class="inside"></div></div>
-                    </li>
-                    <li>
-                      <input type="radio" id="seniors-option5" name="seniors" value="5" required>
-                      <label for="seniors-option5" class="radio-label">5</label>
-                      <div class="check"></div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div class="input-element">
-              <div class="central-input">
-                <div class="radio-container">
-                  <h2 class="input-label">How responsible is the following reason to start alcohol:
-                  <center><b>"Breakup/Relationship Issues"</b></center></h2>
-                  <ul class="radio-options-list">
-                    <li>
-                      <input type="radio" id="breakup-f-option" name="breakup" value="1" required>
-                      <label for="breakup-f-option" class="radio-label">1</label>
-                      <div class="check"></div>
-                    </li>
-
-                    <li>
-                      <input type="radio" id="breakup-s-option" name="breakup" value="2" required>
-                      <label for="breakup-s-option" class="radio-label">2</label>
-                      <div class="check"><div class="inside"></div></div>
-                    </li>
-                    <li>
-                      <input type="radio" id="breakup-option3" name="breakup" value="3" required>
-                      <label for="breakup-option3" class="radio-label">3</label>
-                      <div class="check"></div>
-                    </li>
-
-                    <li>
-                      <input type="radio" id="breakup-option4" name="breakup" value="4" required>
-                      <label for="breakup-option4" class="radio-label">4</label>
-                      <div class="check"><div class="inside"></div></div>
-                    </li>
-                    <li>
-                      <input type="radio" id="breakup-option5" name="breakup" value="5" required>
-                      <label for="breakup-option5" class="radio-label">5</label>
-                      <div class="check"></div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div class="input-element">
-              <div class="central-input">
-                <div class="radio-container">
-                  <h2 class="input-label">How responsible is the following reason to start alcohol:
-                  <center><b>"Out of Curiosity"</b></center></h2>
-                  <ul class="radio-options-list">
-                    <li>
-                      <input type="radio" id="curiosity-f-option" name="curiosity" value="1" required>
-                      <label for="curiosity-f-option" class="radio-label">1</label>
-                      <div class="check"></div>
-                    </li>
-
-                    <li>
-                      <input type="radio" id="curiosity-s-option" name="curiosity" value="2" required>
-                      <label for="curiosity-s-option" class="radio-label">2</label>
-                      <div class="check"><div class="inside"></div></div>
-                    </li>
-                    <li>
-                      <input type="radio" id="curiosity-option3" name="curiosity" value="3" required>
-                      <label for="curiosity-option3" class="radio-label">3</label>
-                      <div class="check"></div>
-                    </li>
-
-                    <li>
-                      <input type="radio" id="curiosity-option4" name="curiosity" value="4" required>
-                      <label for="curiosity-option4" class="radio-label">4</label>
-                      <div class="check"><div class="inside"></div></div>
-                    </li>
-                    <li>
-                      <input type="radio" id="curiosity-option5" name="curiosity" value="5" required>
-                      <label for="curiosity-option5" class="radio-label">5</label>
-                      <div class="check"></div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div class="input-element">
-              <div class="central-input">
-                <div class="radio-container">
-                  <h2 class="input-label">How responsible is the following reason to start alcohol:
-                  <center><b>"Asked by Professor"</b></center></h2>
-                  <ul class="radio-options-list">
-                    <li>
-                      <input type="radio" id="proff-f-option" name="proff" value="1" required>
-                      <label for="proff-f-option" class="radio-label">1</label>
-                      <div class="check"></div>
-                    </li>
-
-                    <li>
-                      <input type="radio" id="proff-s-option" name="proff" value="2" required>
-                      <label for="proff-s-option" class="radio-label">2</label>
-                      <div class="check"><div class="inside"></div></div>
-                    </li>
-                    <li>
-                      <input type="radio" id="proff-option3" name="proff" value="3" required>
-                      <label for="proff-option3" class="radio-label">3</label>
-                      <div class="check"></div>
-                    </li>
-
-                    <li>
-                      <input type="radio" id="proff-option4" name="proff" value="4" required>
-                      <label for="proff-option4" class="radio-label">4</label>
-                      <div class="check"><div class="inside"></div></div>
-                    </li>
-                    <li>
-                      <input type="radio" id="proff-option5" name="proff" value="5" required>
-                      <label for="proff-option5" class="radio-label">5</label>
-                      <div class="check"></div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div class="input-element">
-              <div class="central-input">
-                <div class="radio-container">
-                  <h2 class="input-label">How likely do you think alcohol consumption is injurious to health</h2>
-                  <ul class="radio-options-list">
-                    <li>
-                      <input type="radio" id="hihi-f-option" name="hihi" value="1" required>
-                      <label for="hihi-f-option" class="radio-label">1</label>
-                      <div class="check"></div>
-                    </li>
-
-                    <li>
-                      <input type="radio" id="hihi-s-option" name="hihi" value="2" required>
-                      <label for="hihi-s-option" class="radio-label">2</label>
-                      <div class="check"><div class="inside"></div></div>
-                    </li>
-                    <li>
-                      <input type="radio" id="hihi-option3" name="hihi" value="3" required>
-                      <label for="hihi-option3" class="radio-label">3</label>
-                      <div class="check"></div>
-                    </li>
-
-                    <li>
-                      <input type="radio" id="hihi-option4" name="hihi" value="4" required>
-                      <label for="hihi-option4" class="radio-label">4</label>
-                      <div class="check"><div class="inside"></div></div>
-                    </li>
-                    <li>
-                      <input type="radio" id="hihi-option5" name="hihi" value="5" required>
-                      <label for="hihi-option5" class="radio-label">5</label>
-                      <div class="check"></div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
             <div class="input-element">
                                 <div class="central-input">
                                     <label for="" class="input-label">Submit the form to get the best out of us</label>
@@ -802,11 +415,13 @@ Please fill the form to the best of your knowledge and see the results.Cheers! (
           <span><i class="fa fa-chevron-right"></i></span>
         </div>
       </div>
-      <p style="color:white; font-size:17px;"><span style="float:right;">(Guided by: <a  style="color:white;" href="https://www.iitr.ac.in/departments/DM/pages/People+Faculty+Jogendra_Kumar_Nayak.html">Prof. Jogendra Kumar Nayak)</a></span></p>
+      
     </div>
   </main>
   <script src="{% static 'main/script.js' %}"></script>
   <script src="{% static 'main/tingle.js' %}"></script>
+  <script src="{% static 'main/particles.js' %}"></script>
+  <script src="{% static 'main/app.js' %}"></script>
   <script>
   {%if res %}
   var modal = new tingle.modal({
