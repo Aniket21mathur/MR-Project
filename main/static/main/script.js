@@ -6,7 +6,7 @@ window.onload = function() {
         let newOffset = parseInt(formBody.style.left? formBody.style.left: 0) - WIDTH;
         Math.abs(newOffset) < maxOffset?
             formBody.style.left = `${newOffset}rem`:
-        alert("Nothing beyond this");
+        alert("That's it");
     }
 
     let previousInput = function() {
@@ -15,7 +15,7 @@ window.onload = function() {
         let newOffset = parseInt(formBody.style.left? formBody.style.left: 0)  + WIDTH;
         newOffset <= 0?
             formBody.style.left = `${newOffset}rem`:
-        alert("Nothing before this");
+        alert("Please go ahead");
     }
 
     let listenKeydown = function(e) {
