@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'drinkr.urls'
+ROOT_URLCONF = 'politics.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'drinkr.wsgi.application'
+WSGI_APPLICATION = 'politics.wsgi.application'
 
 
 # Database

@@ -4,7 +4,7 @@ import pickle
 import os
 import numpy as np
 import pandas as pd
-from drinkr.settings import BASE_DIR
+from politics.settings import BASE_DIR
 
 def index(request):
 	data_head = ['Are you a student of IIT Roorkee',
