@@ -30,18 +30,16 @@ def index(request):
 	if request.method == "POST":
 		data = [[1, 	4, 	1, 	1, 1,	1, 	1, 	5, 	5, 	1, 	2, 5.0, 5, 	5, 	3, 	3, 	3, 	3, 	3, 	5.0]]
 		data = [[
-			request.POST.get('student',1),
+			#request.POST.get('student',1),
 			request.POST.get('frequent',1),
 			request.POST.get('frate',1),
 			request.POST.get('addict',1),
 			request.POST.get('year',1),
 			request.POST.get('binge',1),
-			#request.POST.get('taste',1),
-			#request.POST.get('acad',1),
-			#request.POST.get('peer',1),
+			request.POST.get('taste',1),
+			request.POST.get('acad',1),
+			request.POST.get('peer',1),
 			#request.POST.get('family',1),
-			"1",
-			"1",
 			"1",
 			"1",
 			"1",
