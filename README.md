@@ -1,6 +1,6 @@
 ### The Ballot Box!
 
-Based on a survey on 'Your Views for indian Politics', we present you a response form that gives you the probability of how likely you are to support which political party. We have trained a model as per the response obtained by the students of IIT Roorkee and other family members.
+Based on a survey on 'Your Views for Indian Politics', we present you a response form that gives you the probability of how likely you are to support which political party. We have trained a model as per the response obtained by the students of IIT Roorkee and other family members.
 
 #### Link to webapp: http://politic1.herokuapp.com/
 
