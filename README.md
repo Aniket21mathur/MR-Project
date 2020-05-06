@@ -46,3 +46,11 @@ The Complete Qualitative and Quantitative analysis has been put together to buil
 Based on a survey on *Your Views for Indian Politics*, we present you with an approximate prediction, the probability of voting a particular party based on a set of questions that the person will answer. 
               [**Have a shot**](https://politic1.herokuapp.com/)
 
+
+### Team Members
+
+* Aniket Mathur
+* Ishan Jindal
+* Rahul Patil
+* Ritick Goenka
+* Tushar Bansal
